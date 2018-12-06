@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+body {
+  overflow-x: hidden; }
+
 p {
   color: #848e97;
   font-family: "Montserrat", sans-serif;
@@ -27,6 +31,29 @@ a:hover {
   .my-btn:hover {
     background: #635c73;
     color: #ffffff; }
+
+#folowers-items a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 32px; }
+
+#folowers-items #btn-git {
+  color: #000000;
+  background-color: #f3f3f3; }
+
+#folowers-items #btn-twit {
+  color: #ffffff;
+  background-color: #26a6d1; }
+
+#folowers-items #btn-face {
+  color: #ffffff;
+  background-color: #3b5998; }
+
+#folowers-items span {
+  color: #635c73;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 32px; }
 
 header {
   height: 106px; }
@@ -67,6 +94,81 @@ header {
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
         line-height: 15px; }
+
+#revolutionary_sect h2 {
+  color: #635c73;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 20.45px;
+  text-transform: uppercase; }
+
+#revolutionary_sect p {
+  opacity: 0.8;
+  color: #323232;
+  font-weight: 400;
+  line-height: 32px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center; }
+
+#whatyouget_sect {
+  background-color: #f4f4f4; }
+  #whatyouget_sect h3 {
+    color: #8d81ac;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 20.45px; }
+  #whatyouget_sect .whatyouget_item h6 {
+    color: #323232;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 21px; }
+
+#testm_sect .carousel .carousel-inner,
+#testm_sect .carousel .carousel-item {
+  height: 100%; }
+
+#testm_sect .carousel span {
+  color: #635c73;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 32px; }
+
+#testm_sect .tstm-name {
+  color: #635c73;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 32px; }
+
+#testm_sect .tstm-nick {
+  color: #8d81ac;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 32px; }
+
+#testm_sect .text-center {
+  color: #333333;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  line-height: 32px; }
+  #testm_sect .text-center span {
+    color: #8d81ac; }
+
+#talkingAbout_sect {
+  background: url(../img/talkingAbout-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  #talkingAbout_sect h4 {
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 20.45px; }
+
+#subscriptionPricing_sect {
+  background: url(../img/subscriptionPricing-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
 
 @media (min-width: 320px) {
   .container {
@@ -114,4 +216,74 @@ header {
         #top_sect .container div:nth-child(2) span {
           font-size: 14px; }
   #revolutionary_sect {
-    height: 392px; } }
+    height: 392px; }
+    #revolutionary_sect .container .row {
+      height: 170px; }
+    #revolutionary_sect h2 {
+      font-size: 54px; }
+    #revolutionary_sect p {
+      font-size: 21px; }
+    #revolutionary_sect img {
+      width: auto;
+      height: 26px; }
+  #whatyouget_sect {
+    padding-top: 84px;
+    padding-bottom: 70px; }
+    #whatyouget_sect .container .row {
+      position: relative; }
+    #whatyouget_sect .container .whatyouget_item {
+      margin-bottom: 20px; }
+      #whatyouget_sect .container .whatyouget_item h6 {
+        font-size: 16px; }
+    #whatyouget_sect .container #img-bott {
+      position: absolute;
+      left: 50%;
+      top: 50px; }
+      #whatyouget_sect .container #img-bott img {
+        width: 1140px;
+        height: 580px; }
+    #whatyouget_sect .container h3 {
+      width: 100%;
+      position: absolute;
+      left: calc(50% + 30px);
+      top: -2px;
+      font-size: 48px; }
+  #testm_sect {
+    height: 590px; }
+    #testm_sect .carousel {
+      height: 286px; }
+      #testm_sect .carousel span {
+        font-size: 16px; }
+    #testm_sect .text-center {
+      font-size: 20px;
+      padding-top: 42px;
+      padding-bottom: 8px; }
+    #testm_sect .tstm-name {
+      font-size: 24px;
+      margin-bottom: 0; }
+    #testm_sect .tstm-nick {
+      font-size: 16px;
+      margin-bottom: 0; }
+    #testm_sect #folowers hr {
+      height: 1px;
+      background-color: #c7c7c7;
+      opacity: 0.2; }
+    #testm_sect #folowers-items {
+      width: 800px; }
+      #testm_sect #folowers-items a {
+        width: 240px;
+        height: 50px;
+        transition: 0.3s;
+        border-radius: 5px;
+        margin-top: 60px;
+        margin-bottom: 18px;
+        font-size: 21px; }
+      #testm_sect #folowers-items span {
+        font-size: 14px; }
+  #talkingAbout_sect {
+    height: 764px;
+    padding-top: 98px; }
+    #talkingAbout_sect h4 {
+      font-size: 48px; }
+  #subscriptionPricing_sect {
+    height: 900px; } }
